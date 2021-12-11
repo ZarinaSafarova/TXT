@@ -41,18 +41,14 @@ tail -f 1.txt
         "teacher": Ksendzow
 }
 17) вывести несколько первых строк из текстового файла
-head 1.txt
-	"group": 25
-	"people": 228,
-        "course": QA
-        "teacher": Ksendzow
+head -2n 1.txt
+	{
+        "group": 25,
 
 18) вывести несколько последних строк из текстового файла
-tail 1.txt
-	"group": 25
-        "people": 228,
-        "course": QA
+ tail -n3 1.txt
         "teacher": Ksendzow
+}
 19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
 less 1.txt
 20) вывести дату и время
