@@ -1,0 +1,95 @@
+JSON
+ 4. Создать внешний репозиторий c названием JSON. 
+ 5. Клонировать репозиторий JSON на локальный компьютер git clone https://github.com/ZarinaSafarova/JSON.git
+ 6. Внутри локального JSON создать файл “new.json” mkdir new.json
+ 7. Добавить файл под гит git add
+ 8. Закоммитить файл git commit -m "add new.json"
+ 9. Отправить файл на внешний GitHub репозиторий git push
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+ {
+        "name":"Zarina",
+        "Surname":"Safarova",
+        "Patronymic":"Kholovna",
+        "Number of pets":"0",
+        "Future desired salary":"1500$"
+}
+ 11. Отправить изменения на внешний репозиторий git push
+ 12. Создать файл preferences.json touch preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+{
+        "Favourite film":"Harry Potter",
+        "Favourite Series":"Desperate housewivies",
+        "Favourite Essen":"Meat",
+        "Favourite time of the years":"Summer",
+        "The country i want to visit":"Germany"
+}
+14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON 
+touch skills.json
+vim skills.json
+{
+        "Skills":"excellent communication skills", "critical thinking", "flexibility", "quick to learn", "collaboration and social skills"
+
+}
+ 15. Отправить сразу 2 файла на внешний репозиторий. 
+ git status
+ git add .
+ git status
+ git commit -m "add"
+ git fetch
+ git pull
+ 16. На веб интерфейсе создать файл bug_report.json.
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+ {
+  "Bug-report":"add"
+}
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 20. Синхронизировать внешний и локальный репозиторий JSON git add .
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+ 22. Клонировать репозиторий XML на локальный компьютер.  git clone https://github.com/ZarinaSafarova/XML.git
+ 23. Внутри локального XML создать файл “new.xml”.  touch new.xml
+ 24. Добавить файл под гит.  git add .
+ 25. Закоммитить файл.  git commit -m "add file"
+ 26. Отправить файл на внешний GitHub репозиторий.  git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+ <?xml version="1.0" encording="UTF-8" ?>
+<person>
+        <name>Safarova Zarina</name>
+        <age>24</age>
+        <number of pets>0</number of pets>
+        <salary>1500$</salary>
+</person>
+ 28. Отправить изменения на внешний репозиторий.  
+ git status
+ git add .
+ git commit -m "add personal date"
+ git push
+ 29. Создать файл preferences.xml touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+ <?xml version="1.0" enconding= "Utf-8" ?>
+<preferences>
+        <my preferences>Germany,cookies,eat</my preferences>
+        <favourite film>Harry Potter</favourite film>
+        <favourite country>Germany</favourite country>
+</preferences>
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+  touch skills.json
+   vim skills.json
+   <?xml version="1.0" enconding="UTF-8" ?>
+<skills>
+        <skills QA>flexibility,critical thinking </skills QA>
+</skills>
+ 32. Сделать коммит в одну строку git commit -m "add personal info about skills and preferences"
+ 33. Отправить сразу 2 файла на внешний репозиторий  git push
+ 34. На веб интерфейсе создать файл bug_report.xml.
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+ <?xml version="1.0" enconding="UTF-8" ?>
+<bug>
+  <bug-report>0</bug-report>
+</bug>
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 38. Синхронизировать внешний и локальный репозиторий XML cd add .
