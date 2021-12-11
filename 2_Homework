@@ -86,7 +86,7 @@ XML
         <skills QA>flexibility,critical thinking </skills QA>
 </skills>
  32. Сделать коммит в одну строку git commit -m "add personal info about skills and preferences"
- 33. Отправить сразу 2 файла на внешний репозиторий  git push
+ 33. Отправить сразу 2 файла на внешний репозиторий  git push или git add .&& git commit -m  "add personal info about skills and preferences" && git push
  34. На веб интерфейсе создать файл bug_report.xml.
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
